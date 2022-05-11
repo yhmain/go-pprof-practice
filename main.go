@@ -8,7 +8,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/wolfogre/go-pprof-practice/animal"
+	"github.com/yhmain/go-pprof-practice/animal"
 )
 
 func main() {
