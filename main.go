@@ -16,7 +16,7 @@ func main() {
 	log.SetOutput(os.Stdout)
 
 	runtime.GOMAXPROCS(1)
-	runtime.SetMutexProfileFraction(1)
+	runtime.SetMutexProfileFraction(1) //1代表每次阻塞均记录
 	runtime.SetBlockProfileRate(1)
 
 	go func() {
